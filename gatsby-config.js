@@ -1,6 +1,6 @@
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = 'https://www.iamtimsmith.com',
+  URL: NETLIFY_SITE_URL = 'https://serene-wing-dcfc76.netlify.com',
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV,
 } = process.env
@@ -10,7 +10,7 @@ const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL
 module.exports = {
   siteMetadata: {
     title: `Brennon Borbon`,
-    siteUrl: 'https://www.iamtimsmith.com',
+    siteUrl: 'https://serene-wing-dcfc76.netlify.com',
     description: `Brennon Borbon is a front-end developer and web designer focused on making the web a more enjoyable place to be`,
     author: `@brenborbon`,
     keywords: `freelance, web developer, full stack developer web, react developer`,
