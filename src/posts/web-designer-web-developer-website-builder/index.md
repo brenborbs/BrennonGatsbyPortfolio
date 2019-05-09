@@ -36,4 +36,4 @@ I started in code by building applications for windows using c#. I then took an 
 
 Although there are some different options when it comes to building your website, each option has pros and cons. Designers can save time and money but are not as hands on. Website builders allow you to drag and drop things into place, but can be expensive and more brittle. Web developers are the folks who handle the code behind the scenes and make a website work.
 
-If you have any questions or want to hire me, you can contact me [here](https://brennon-borbon.netlify.com).
+If you have any questions or want to hire me, you can contact me [here](https://brennon-borbon.netlify.com/#contact).
