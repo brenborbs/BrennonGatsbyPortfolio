@@ -9,7 +9,7 @@ next: /jmc-limited
 fullPage: ./frontpage.jpg
 thumbOne: ./mockup1.jpg
 thumbTwo: ./mockup2.jpg
-url: https://serene-wing-dcfc76.netlify.com
+url: https://brennon-borbon.netlify.com
 keywords: 'react, gatsby, graphql, sass'
 ---
 
