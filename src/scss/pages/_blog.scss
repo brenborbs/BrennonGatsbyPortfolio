@@ -1,0 +1,27 @@
+#blog {
+  margin-top: 65px;
+  min-height: 750px;
+  position: relative;
+  top: 20px;
+
+  form {
+    padding: 50px 0;
+    #search-bar {
+      font-size: 1.8rem;
+    }
+  }
+  h1 {
+    font-family: $serif;
+  }
+  .post-card {
+    .card {
+      position: relative;
+      top: 0;
+      transition: all 0.3s;
+      &:hover {
+        top: -5px;
+        box-shadow: 0 0 30px #bbb;
+      }
+    }
+  }
+}
