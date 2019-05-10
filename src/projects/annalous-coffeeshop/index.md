@@ -4,7 +4,7 @@ date: '2019-04-12'
 title: Anna Lou's Coffee Shop
 tags: '#react #gatsby #graphql #JAMstack #contentful #disqus #snipcart' 
 priority: '4'
-last: /waves-ecommerce
+last: /client-panel
 next: /jmc-limited
 fullPage: ./frontpage.png
 thumbOne: ./mockup1.png
