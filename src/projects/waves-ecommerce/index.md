@@ -1,7 +1,7 @@
 ---
 path: /waves-ecommerce
 date: '2018-08-22'
-title: Waves E-Commerce Site
+title: Waves Guitar Shop
 tags: '#react #nodejs #expressjs #mongodb'
 priority: '3'
 last: /jmc-limited
