@@ -13,5 +13,5 @@ url: 'https://agile-plateau-67118.herokuapp.com/'
 keywords: 'react, nodejs, expressjs, mongodb'
 ---
 
-This is a complete sample fullstack E-commerce Guitar Selling Shop. It is made using REACT and Redux on the front-end. The back end are made using NodeJS, expressJS framework and Mongodb NoSQL. The app can Register new Users with their individual emails and password. Passwords are hashed using bcrypt and crypto packages. Jsonwebtoken are used for user tokens for sessions and authentication.
+This is a sample fullstack E-commerce Guitar Selling Shop. It is made using REACT and Redux on the front-end. The back end are made using NodeJS, expressJS framework and Mongodb NoSQL. Users can register and then log-in and log-out with their accounts. They can create products and brands. Payment can be made via their Paypal accounts.
  
