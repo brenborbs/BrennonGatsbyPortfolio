@@ -13,7 +13,7 @@ const IndexPage = ({ data }) => (
     <section className="section hero is-large has-text-centered">
       <Img sizes={data.heroImg.childImageSharp.sizes} />
       <div className="text">
-        <h1 className="is-size-1">Web Developer.</h1>
+        <h1 className="is-size-1">Web Developer And Web Master.</h1>
         <p className="is-size-3">We are friends.</p>
         <AnchorLink
           href="#contact"
