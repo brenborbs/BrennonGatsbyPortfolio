@@ -64,6 +64,7 @@ class WorkPost extends Component {
           description={post.excerpt}
           keywords={post.frontmatter.keywords}
           url={post.fields.slug}
+          github={post.frontmatter.github}
           image={post.frontmatter.thumbOne.childImageSharp.sizes.src}
         />
         <div
@@ -121,6 +122,14 @@ class WorkPost extends Component {
               >
                 Visit Site
               </a>
+              <a
+                href={post.frontmatter.github}
+                className="column button is-large is-one-third"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github Code
+              </a>
             </div>
           </section>
         </div>
@@ -135,6 +144,7 @@ export const query = graphql`
   query WorkPostQuery($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
+
       excerpt(pruneLength: 160)
       fields {
         slug
@@ -144,6 +154,7 @@ export const query = graphql`
         tags
         url
         keywords
+        github
         thumbOne {
           childImageSharp {
             sizes(maxWidth: 1000) {

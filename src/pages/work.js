@@ -14,6 +14,7 @@ export default ({ data }) => (
           name={node.frontmatter.title}
           tags={node.frontmatter.tags}
           url={node.fields.slug}
+          github={node.frontmatter.github}
           img={node.frontmatter.thumbOne.childImageSharp.sizes}
         />
       ))}
@@ -36,6 +37,7 @@ export const workQuery = () => graphql`
             title
             path
             tags
+            github
             thumbOne {
               childImageSharp {
                 sizes(maxWidth: 1200) {
