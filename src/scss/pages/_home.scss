@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Iceland&display=swap');
+
 .is-home {
   #navbar {
     transition: all 0.25s;
@@ -15,8 +18,33 @@
       }
     }
   }
+  /*glow for webkit*/
+
+  @keyframes neon1 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
+        0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
+        0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
+    }
+  }
+  @keyframes neon6 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de,
+        0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de,
+        0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+    }
+  }
   .hero {
-    color: white;
+    // -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    // -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    // animation: neon1 1.5s ease-in-out infinite alternate;
+    color: #fff;
     justify-content: center;
     position: relative;
     opacity: 0;
@@ -38,26 +66,48 @@
       z-index: -1;
     }
     .is-size-1 {
-      font-family: $serif;
-      font-weight: 700;
-      color: white;
+      // font-family: $serif;
+      color: whitesmoke;
+      font-family: 'Monoton', cursive;
+      -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+      -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+      animation: neon1 1.5s ease-in-out infinite alternate;
+      font-weight: 100;
+      // color: white;
       position: relative;
       top: 20px;
-      opacity: 0;
-      animation: onLoad 1s linear 0.5s 1 forwards;
-      -webkit-animation: onLoad 1s linear 0.5s 1 forwards;
-      -moz-animation: onLoad 1s linear 0.5s 1 forwards;
-      -o-animation: onLoad 1s linear 0.5s 1 forwards;
+      // opacity: 0;
+      // animation: onLoad 1s linear 0.5s 1 forwards;
+      // -webkit-animation: onLoad 1s linear 0.5s 1 forwards;
+      // -moz-animation: onLoad 1s linear 0.5s 1 forwards;
+      // -o-animation: onLoad 1s linear 0.5s 1 forwards;
+      &:hover {
+        color: #ff1177;
+        -webkit-animation: none;
+        -moz-animation: none;
+        animation: none;
+      }
     }
     .is-size-3 {
       position: relative;
       color: white;
+      font-weight: 100;
       top: 20px;
-      opacity: 0;
-      animation: onLoad 1s linear 1s 1 forwards;
-      -webkit-animation: onLoad 1s linear 1s 1 forwards;
-      -moz-animation: onLoad 1s linear 1s 1 forwards;
-      -o-animation: onLoad 1s linear 1s 1 forwards;
+      font-family: 'Iceland', cursive;
+      // opacity: 0;
+      // animation: onLoad 1s linear 1s 1 forwards;
+      // -webkit-animation: onLoad 1s linear 1s 1 forwards;
+      // -moz-animation: onLoad 1s linear 1s 1 forwards;
+      // -o-animation: onLoad 1s linear 1s 1 forwards;
+      -webkit-animation: neon6 1.5s ease-in-out infinite alternate;
+      -moz-animation: neon6 1.5s ease-in-out infinite alternate;
+      animation: neon6 1.5s ease-in-out infinite alternate;
+      &:hover {
+        color: #ba01ff;
+        -webkit-animation: none;
+        -moz-animation: none;
+        animation: none;
+      }
     }
     .button {
       margin-top: 15px;
