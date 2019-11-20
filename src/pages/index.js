@@ -13,8 +13,28 @@ const IndexPage = ({ data }) => (
     <section className="section hero is-large has-text-centered">
       <Img sizes={data.heroImg.childImageSharp.sizes} />
       <div className="text">
-        <h1 className="is-size-1">Front End Web Developer</h1>
-        <h5 className="is-size-3">We are friends.</h5>
+        <h1
+          className=".is-size-1"
+          style={{
+            color: 'white',
+          }}
+        >
+          Front End Web Developer
+        </h1>
+        <h5
+          className=".is-size-3"
+          style={{
+            color: 'white',
+            background: '#82828287',
+            padding: '0 20px',
+            display: 'table',
+            margin: '0 auto',
+            textTransform: 'uppercase',
+            fontSize: '30px',
+          }}
+        >
+          I pushed the boundaries of what is to be made in the web
+        </h5>
         <AnchorLink
           href="#contact"
           className="button is-medium scroll"

@@ -20,26 +20,26 @@
   }
   /*glow for webkit*/
 
-  @keyframes neon1 {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
-        0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
-    }
-    to {
-      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
-        0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
-    }
-  }
-  @keyframes neon6 {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de,
-        0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
-    }
-    to {
-      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de,
-        0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
-    }
-  }
+  // @keyframes neon1 {
+  //   from {
+  //     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
+  //       0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
+  //   }
+  //   to {
+  //     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
+  //       0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
+  //   }
+  // }
+  // @keyframes neon6 {
+  //   from {
+  //     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de,
+  //       0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  //   }
+  //   to {
+  //     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de,
+  //       0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+  //   }
+  // }
   .hero {
     // -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
     // -moz-animation: neon1 1.5s ease-in-out infinite alternate;
@@ -67,11 +67,10 @@
     }
     .is-size-1 {
       // font-family: $serif;
-      color: whitesmoke;
       font-family: 'Monoton', cursive;
-      -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-      -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-      animation: neon1 1.5s ease-in-out infinite alternate;
+      // -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+      // -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+      // animation: neon1 1.5s ease-in-out infinite alternate;
       font-weight: 100;
       // color: white;
       position: relative;
@@ -81,16 +80,15 @@
       // -webkit-animation: onLoad 1s linear 0.5s 1 forwards;
       // -moz-animation: onLoad 1s linear 0.5s 1 forwards;
       // -o-animation: onLoad 1s linear 0.5s 1 forwards;
-      &:hover {
-        color: #ff1177;
-        -webkit-animation: none;
-        -moz-animation: none;
-        animation: none;
-      }
+      // &:hover {
+      //   color: #ff1177;
+      //   -webkit-animation: none;
+      //   -moz-animation: none;
+      //   animation: none;
+      // }
     }
     .is-size-3 {
       position: relative;
-      color: white;
       font-weight: 100;
       top: 20px;
       font-family: 'Iceland', cursive;
@@ -99,15 +97,15 @@
       // -webkit-animation: onLoad 1s linear 1s 1 forwards;
       // -moz-animation: onLoad 1s linear 1s 1 forwards;
       // -o-animation: onLoad 1s linear 1s 1 forwards;
-      -webkit-animation: neon6 1.5s ease-in-out infinite alternate;
-      -moz-animation: neon6 1.5s ease-in-out infinite alternate;
-      animation: neon6 1.5s ease-in-out infinite alternate;
-      &:hover {
-        color: #ba01ff;
-        -webkit-animation: none;
-        -moz-animation: none;
-        animation: none;
-      }
+      // -webkit-animation: neon6 1.5s ease-in-out infinite alternate;
+      // -moz-animation: neon6 1.5s ease-in-out infinite alternate;
+      // animation: neon6 1.5s ease-in-out infinite alternate;
+      // &:hover {
+      //   color: #ba01ff;
+      //   -webkit-animation: none;
+      //   -moz-animation: none;
+      //   animation: none;
+      // }
     }
     .button {
       margin-top: 15px;
